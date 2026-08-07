@@ -2,7 +2,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![LLM](https://img.shields.io/badge/LLM-Powered-green)
 ![RAG](https://img.shields.io/badge/RAG-Enabled-orange)
-![Elastic-search](https://img.shields.io/badge/ES-red)
+![ElasticSearch](https://img.shields.io/badge/ElasticSearch-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 # ElasticSearch-Rag# ES-RAG Grievance Retrieval System
 
