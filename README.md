@@ -1,3 +1,9 @@
+# Law Simplified
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![LLM](https://img.shields.io/badge/LLM-Powered-green)
+![RAG](https://img.shields.io/badge/RAG-Enabled-orange)
+![Elastic-search](https://img.shields.io/badge/ES-red)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 # ElasticSearch-Rag# ES-RAG Grievance Retrieval System
 
 An LLM-integrated retrieval pipeline that converts natural language queries into structured Elasticsearch queries, combined with a RAG-based semantic caching and retrieval layer — built to replace manual grievance search on a government portal.
