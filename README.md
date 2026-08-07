@@ -69,6 +69,7 @@ Semantic Cache Lookup ── hit ──► Return Cached Results
 - **Hybrid Search** — Combines exact-match keyword filtering (structured metadata: state, district, ministry, department, date) with semantic similarity search (free-text complaint context).
 - **Top-K Ranking** — Returns the 10 most relevant records by combined relevance score.
 - **RAG-Based Generation** — Converts retrieved records into a coherent, context-grounded response.
+- **LLM** - Uses many shot prompting examples for reference.
 
 ## Tech Stack
 
