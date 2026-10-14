@@ -1,12 +1,20 @@
-# ElasticSearch-RAG
+# ES-RAG: Grievance Retrieval System
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![LLM](https://img.shields.io/badge/LLM-Powered-green)
 ![RAG](https://img.shields.io/badge/RAG-Enabled-orange)
 ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-red)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-# ElasticSearch-Rag# ES-RAG Grievance Retrieval System
 
 An LLM-integrated retrieval pipeline that converts natural language queries into structured Elasticsearch queries, combined with a RAG-based semantic caching and retrieval layer — built to replace manual grievance search on a government portal.
+
+> **Type a question in plain English, get the most relevant grievance records plus a readable answer. Cut manual search time by ~50%.**
+>
+> | | |
+> |---|---|
+> | **For** | Government staff searching large grievance databases |
+> | **Input** | A natural language query (location, ministry, department, date, complaint type) |
+> | **Output** | Top-10 ranked records and an LLM-written summary |
+> | **Core tech** | Elasticsearch, LLM query parsing, hybrid (keyword + vector) search, semantic caching, RAG |
 
 ## Overview
 
@@ -75,7 +83,7 @@ Semantic Cache Lookup ── hit ──► Return Cached Results
 - **Hybrid Search** — Combines exact-match keyword filtering (structured metadata: state, district, ministry, department, date) with semantic similarity search (free-text complaint context).
 - **Top-K Ranking** — Returns the 10 most relevant records by combined relevance score.
 - **RAG-Based Generation** — Converts retrieved records into a coherent, context-grounded response.
-- **LLM** - Uses many shot prompting examples for reference.
+- **Many-Shot Prompting** — The query-parsing LLM is given many worked examples to guide entity extraction and query construction.
 
 ## Tech Stack
 
