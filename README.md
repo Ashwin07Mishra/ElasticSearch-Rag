@@ -1,4 +1,4 @@
-# Law Simplified
+# ElasticSearch-RAG
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![LLM](https://img.shields.io/badge/LLM-Powered-green)
 ![RAG](https://img.shields.io/badge/RAG-Enabled-orange)
